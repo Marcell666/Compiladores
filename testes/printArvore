@@ -1,0 +1,16 @@
+foo (umParametro:FLOAT):FLOAT{
+	#0 ou mais disso
+
+	#tem duas formas de declarar vetor:
+
+	#Isso e um comentario
+	@ "uma string que sera impressa";
+
+	#o que diabos isso faz?
+
+	#0 ou mais disso
+
+	@ "entrou no if";
+	@ "entrou no else";
+	@ a;
+}

@@ -1,0 +1,9 @@
+foo (umParametro:FLOAT):FLOAT{
+	
+	a:INT;
+	b:FLOAT;
+	c:CHAR;
+	d:int;
+
+	c = 12.5;
+}

@@ -1,0 +1,17 @@
+foo (umParametro:FLOAT):FLOAT{
+	c:CHAR;
+	@ "estou mostrando";
+
+	c = "isso e \n \t \" \\ uma string";
+
+	@ "uma string que sera impressa";
+
+	valor = 3;
+	
+	IF( valor < 3.0){
+		@ "entrou no if";
+	}	
+	ELSE{
+		@ "entrou no else";
+	}
+}

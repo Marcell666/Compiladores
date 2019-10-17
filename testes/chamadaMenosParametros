@@ -1,0 +1,12 @@
+foo2 (umParametro:FLOAT, doisParametros:int):INT{
+	return doisParametros;
+}
+foo (umParametro:FLOAT):FLOAT{
+	
+	a:INT;
+	b:FLOAT;
+	c:CHAR;
+	d:int;
+
+	a = foo2(b);
+}

@@ -1,0 +1,40 @@
+mostraCoisas(mostra:CHAR){
+	@ "estou mostrando";
+	@ mostra;
+}
+
+chamadaFloat():FLOAT{
+	RETURN 3;
+}
+
+chamadaFloat():BOOL{
+	RETURN TRUE;
+}
+foo (umParametro:FLOAT):FLOAT{
+	valor: FLOAT;
+	vetor: [BOOL] ;
+	
+	a:FLOAT;
+	b:INT;
+	c:CHAR;
+
+	b= 12;
+	a= 0xFF.E2p-3;
+	outroVetor = NEW BOOL [5];
+
+
+	IF( valor || ( valor)
+		|| mostraCoisas(valor)
+		|| 3 AS CHAR == "3"){
+			@ "entrou no if";
+	}	
+	ELSE{
+		@ "entrou no else";
+	}
+
+	a = 3;
+	WHILE(a>0){
+		@ a;
+	}
+}
+

@@ -1,0 +1,15 @@
+foo (umParametro:FLOAT):FLOAT{
+	
+	a:FLOAT;
+	b:FLOAT;
+	c:FLOAT;
+	d:FLOAT;
+	e:FLOAT;
+
+	a = 0xFF.E2p-3;
+	b = 0xA3.23;
+	c = 3.5;
+	d = 0x12;	
+	e = 3.0;
+}
+

@@ -1,0 +1,26 @@
+Olá! \o
+
+Para compilar e executar, use
+
+	$chmod ugo+x run.sh
+	$./run.sh
+
+Serão gerados arquivos a partir dos testes, que ficarão na pasta "saidas".
+
+Note que o arquivo "saidaErro" acumula as saidas stderr de todos os testes.
+Neste momento, este arquivo ficou mais relevante do que os outros, visto os problemas abaixo.
+
+Problemas:
+
+Nao estou promovendo int para float, embora nao va ser dificil consertar isso.
+Nao esta corretamente percebendo quando o numero de parametros e diferente do numero de argumentos.
+
+Nao tem array de array
+Nao estou definindo tipos recursivamente como um no da arvore, por isso encontrei alguns problemas.
+Var nao pode ser exp[exp]. Nao entendi a principio como o primeiro poderia ser um exp.
+Esta faltando o operador logico NOT (!)
+Nao estou tratando char como int
+
+
+Bruce Marcellino
+1613172

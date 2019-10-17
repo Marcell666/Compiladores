@@ -1,0 +1,29 @@
+mostraCoisas(mostra:CHAR){
+	@ "estou mostrando";
+	@ mostra;
+}
+
+chamadaFloat():FLOAT{
+	RETURN 3;
+}
+
+chamadaFloat():BOOL{
+	RETURN TRUE;
+}
+foo (umParametro:FLOAT):FLOAT{
+
+
+	valorA = chamadaFloat() + 2.5;
+	valorB = 4 - chamadaFloat();
+	valorC = 2 * chamadaFloat();
+	valorD = chamadaFloat() / 1.2;
+	valorE = chamadaFloat() == 2.4;
+
+	IF( valorF || (valorG) || mostraCoisas(valorH)){
+		@ "entrou no if";
+	}	
+	ELSE{
+		@ "entrou no else";
+	}
+}
+

@@ -1,0 +1,12 @@
+foo (umParametro:FLOAT):FLOAT{
+	
+	a:INT;
+	b:FLOAT;
+	c:CHAR;
+	d:int;
+
+	b = 3.4;
+	if(b == 12.5){
+		@ "eba";
+	}
+}

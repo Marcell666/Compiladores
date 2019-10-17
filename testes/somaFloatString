@@ -1,0 +1,11 @@
+foo (umParametro:FLOAT):FLOAT{
+	
+	a:INT;
+	b:FLOAT;
+	c:CHAR;
+	d:int;
+	e:float;
+	f:float;
+
+	b = e+"som! som! testando!.. S!";
+}
